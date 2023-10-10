@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>VL.Devices.StreamDeck</id>
+    <version>0.1.0-preview</version>
+    <title>VL.Devices.StreamDeck</title>
+    <authors>Matthias Husinsky</authors>
+    <owners>mhusinsky</owners>
+    <projectUrl>https://github.com/mhusinsky/VL.Devices.StreamDeck</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Use Elgato StreamDeck with VL</summary>
+    <description>VL Nodeset for the Elgato StreamDeck for use in VVVV Gamma. Based on StreamDeckSharp.</description>
+    <readme>README.md</readme>
+    <tags>VL, StreamDeck, Elgato, VVVV</tags>
+	<license type="expression">MIT</license>
+    <dependencies>
+	  <dependency id="StreamDeckSharp" version="3.2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\*.vl" target="" exclude="" />
+    <file src="..\help\**" target="help\" exclude="" />
+    <file src="..\README.md" target="" />
+  </files>
+</package>
