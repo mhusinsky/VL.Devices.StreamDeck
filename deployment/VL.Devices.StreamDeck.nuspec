@@ -8,13 +8,13 @@
     <owners>mhusinsky</owners>
     <projectUrl>https://github.com/mhusinsky/VL.Devices.StreamDeck</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <summary>Use Elgato StreamDeck with VL</summary>
-    <description>VL Nodeset for the Elgato StreamDeck for use in VVVV Gamma. Based on StreamDeckSharp.</description>
+    <summary>Elgato StreamDeck for VVVV</summary>
+    <description>VL Nodeset for the Elgato StreamDeck for use in VVVV Gamma. Based on StreamDeckSharp</description>
     <readme>README.md</readme>
     <tags>VL, StreamDeck, Elgato, VVVV</tags>
 	<license type="expression">MIT</license>
     <dependencies>
-	  <dependency id="StreamDeckSharp" version="3.2.0" />
+	    <dependency id="StreamDeckSharp" version="3.2.0" />
     </dependencies>
   </metadata>
   <files>
