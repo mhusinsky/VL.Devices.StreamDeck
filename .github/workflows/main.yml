@@ -22,4 +22,4 @@ jobs:
       uses: vvvv/PublishVLNuget@1.0.42
       with:
         nuspec: deployment\VL.Devices.StreamDeck.nuspec
-        nuget-key: ${{ secrets.YOUR_NUGET_KEY }}
+        nuget-key: ${{ secrets.NUGET_KEY }}
